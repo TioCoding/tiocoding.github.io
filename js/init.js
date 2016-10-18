@@ -25,18 +25,6 @@
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
-		// Touch?
-			if (skel.vars.isMobile) {
-			
-				// Turn on touch mode.
-					$body.addClass('is-touch');
-
-				// Height fix (mostly for iOS).
-					window.setTimeout(function() {
-						$window.scrollTop($window.scrollTop() + 1);
-					}, 0);
-			
-		}
 
 // Main Sections: Two.
 		
