@@ -26,7 +26,6 @@
 				$body.removeClass('is-loading');
 			});
 
-}
 // Main Sections: Two.
 		
 			// Lightbox gallery.
